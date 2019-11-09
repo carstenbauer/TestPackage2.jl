@@ -1,0 +1,13 @@
+name = "TestPackage2"
+uuid = "f4fd7191-a01e-4365-9a54-05629098fe0f"
+authors = ["Carsten Bauer <crstnbr@gmail.com>"]
+version = "0.1.0"
+
+[compat]
+julia = "1"
+
+[extras]
+Test = "8dfed614-e22c-5e08-85e1-65c5234f0b40"
+
+[targets]
+test = ["Test"]
