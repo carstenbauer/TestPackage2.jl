@@ -20,6 +20,8 @@ jobs:
           version: ${{ matrix.julia-version }}
       - name: Pkg.add("CompatHelper")
         run: julia -e 'using Pkg; Pkg.add("CompatHelper")'
+      - name: Pkg.Registry.add(Pkg.RegistrySpec(url="http://github.com/crstnbr/TrebstRegistry"))
+        run: julia -e 'using Pkg; Pkg.Registry.add(Pkg.RegistrySpec(url="http://github.com/crstnbr/TrebstRegistry"))'
       - name: CompatHelper.main()
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
