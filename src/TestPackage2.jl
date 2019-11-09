@@ -1,5 +1,7 @@
 module TestPackage2
 
-greet() = print("Hello World!")
+using TestPackage
+greet() = print("Hello World!!")
+greet_child() = TestPackage.greet()
 
 end # module
