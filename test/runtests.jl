@@ -2,5 +2,5 @@ using TestPackage2
 using Test
 
 @testset "TestPackage2.jl" begin
-    # Write your own tests here.
+    @test TestPackage2.answer_to_life_universe() == 42
 end
