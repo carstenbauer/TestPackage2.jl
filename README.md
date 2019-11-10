@@ -1,6 +1,6 @@
 # TestPackage2
 
-[![github-ci](https://github.com/crstnbr/TestPackage2.jl/workflows/Run%20tests/badge.svg)]
+[![github-ci](https://github.com/crstnbr/TestPackage2.jl/workflows/Run%20tests/badge.svg)](https://github.com/crstnbr/TestPackage2.jl/actions?query=workflow%3A%22Run+tests%22)
 
 This is an examplatory package with a dependency ([TestPackage.jl](http://github.com/crstnbr/TestPackage.jl)) registered in the [TrebstRegistry](http://github.com/crstnbr/TrebstRegistry).
 
