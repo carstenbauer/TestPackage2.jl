@@ -7,7 +7,7 @@ version = "0.1.0"
 TestPackage = "02d326e5-d3c8-4335-9f2f-3aadd41f742a"
 
 [compat]
-TestPackage = "0.1"
+TestPackage = "0.1, 0.2"
 julia = "1"
 
 [extras]
