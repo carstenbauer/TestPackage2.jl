@@ -1,7 +1,7 @@
 name = "TestPackage2"
 uuid = "f4fd7191-a01e-4365-9a54-05629098fe0f"
 authors = ["Carsten Bauer <crstnbr@gmail.com>"]
-version = "0.1.1"
+version = "0.1.2"
 
 [deps]
 TestPackage = "02d326e5-d3c8-4335-9f2f-3aadd41f742a"
